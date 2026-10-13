@@ -230,3 +230,8 @@ data/
 # Windows local metadata
 Thumbs.db
 Desktop.ini
+
+# Keep only the verified empty SQLite schema in the repository
+!data/
+data/*
+!data/mail_sender.db
