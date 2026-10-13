@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+.pytest_cache/
+data/*.db
+*.pyc
+
+# Local secrets and runtime data
+.env
+.env.*
+data/
+*.sqlite
+*.sqlite3
+*.db
+*.db-*
+*.log
+
+# Local build and editor artifacts
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
